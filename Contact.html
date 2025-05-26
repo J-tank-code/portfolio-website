@@ -4,12 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" href="./Resources/css/style.css">
+    <link rel="stylesheet" href="./Resources/JavaScript/Responsive.js">
 </head>
 <body>
     <header>
-        <p><a href="./main.html">Over Mij</a></p>
-        <p><a href="./Projecten.html">Mijn projecten</a></p>
-        <p><a href="./Contact.html">Kom in contact</a></p>
+        <p id="menu"><a href="./main.html">Over mij</a></p>
+        <p id="menu"><a href="./Projecten.html">Mijn projecten</a></p>
+        <p id="menu"><a href="./Contact.html">Kom in contact</a></p>
     </header>
+
+    <div id="contactinformatie">
+        <h2>Contact</h2>
+        <p id="contact">Laat hieronder je bericht achter en ik reageer zo snel mogelijk!</p>
+        <label for="email">Laat hier je email achter:</label>
+        <input type="text" id="email" name="email" required>
+        <br>
+        <label for="voornaam">Voornaam:</label>
+        <input type="text" id="voornaam" name="voornaam" required>
+        <br>
+        <label for="achternaam">Achternaam:</label>
+        <input type="text" id="achternaam" name="achternaam" required>
+        <br>
+        <label for="telefoon">Telefoonnummer (optioneel):</label>
+        <input type="text" id="telefoon" name="telefoon">
+        <br>
+        <button type="submit">Versturen</button>
+    </div>
+
+    <div>
+        <p id="contact-mij">Of stuur mij een mail op: jesper.smink@hotmail.nl</p>
+    </div>
 </body>
 </html>
