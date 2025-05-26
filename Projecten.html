@@ -6,17 +6,28 @@
     <title>Jespers Projecten</title>
     <link rel="stylesheet" href="./Resources/css/style.css">
     <link rel="stylesheet" href="./Resources/JavaScript/Responsive.js">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <p id="menu"><a href="./main.html">Over mij</a></p>
-        <p id="menu"><a href="./Projecten.html">Mijn projecten</a></p>
-        <p id="menu"><a href="./Contact.html">Kom in contact</a></p>
+        <nav>
+            <p class="menu"><a href="./main.html">Over mij</a></p>
+            <p class="menu"><a href="./Projecten.html">Mijn projecten</a></p>
+            <p class="menu"><a href="./Contact.html">Kom in contact</a></p>
+        </nav>
     </header>
-    <div>
-        <h2 id="Projecten">Mijn projecten</h2>
-        <p><img src="./Resources/Pictures/Container Site.png" alt="Bedrijfswebsite"><br>Bedrijfswebsite<br></p><br><p class="talen">JavaScript, CSS, HTML</p>
-        <p><img src="./Resources/Pictures/Judo Site.png" alt="Clubwebsite"><br>Clubwebsite<br></p><br><p class="talen">JavaScript, CSS, HTML, Python</p>
-    </div>
+    
+        <h1 id="Projecten">Mijn projecten</h1>
+      <div class="project-container">
+        <figure class="project">
+          <img src="./Resources/Pictures/Container Site.png" alt="Bedrijfswebsite">
+          <figcaption><a href="../flexbox-business-site-starting/index.html">Bedrijfswebsite</a><br><span class="talen">JavaScript, CSS, HTML</span></figcaption>
+        </figure>
+      
+        <figure class="project">
+          <img src="./Resources/Pictures/Judo Site.png" alt="Clubwebsite">
+          <figcaption><a href="../Responsive Club Website/index.html">Clubwebsite</a><br><span class="talen">JavaScript, CSS, HTML, Python</span></figcaption>
+        </figure>
+      </div>
 </body>
 </html>

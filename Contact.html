@@ -6,31 +6,43 @@
     <title>Contact</title>
     <link rel="stylesheet" href="./Resources/css/style.css">
     <link rel="stylesheet" href="./Resources/JavaScript/Responsive.js">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <p id="menu"><a href="./main.html">Over mij</a></p>
-        <p id="menu"><a href="./Projecten.html">Mijn projecten</a></p>
-        <p id="menu"><a href="./Contact.html">Kom in contact</a></p>
+        <nav>
+            <p class="menu"><a href="./main.html">Over mij</a></p>
+            <p class="menu"><a href="./Projecten.html">Mijn projecten</a></p>
+            <p class="menu"><a href="./Contact.html">Kom in contact</a></p>
+        </nav>
     </header>
 
     <div id="contactinformatie">
-        <h2>Contact</h2>
+        <h1>Contact</h1>
         <p id="contact">Laat hieronder je bericht achter en ik reageer zo snel mogelijk!</p>
-        <label for="email">Laat hier je email achter:</label>
-        <input type="text" id="email" name="email" required>
-        <br>
-        <label for="voornaam">Voornaam:</label>
-        <input type="text" id="voornaam" name="voornaam" required>
-        <br>
-        <label for="achternaam">Achternaam:</label>
-        <input type="text" id="achternaam" name="achternaam" required>
-        <br>
-        <label for="telefoon">Telefoonnummer (optioneel):</label>
-        <input type="text" id="telefoon" name="telefoon">
-        <br>
-        <button type="submit">Versturen</button>
-    </div>
+        <form id="contact-form">
+            <div class="form-row">
+              <label for="email">E-mail:</label>
+              <input type="text" id="email" name="email" required>
+            </div>
+        
+            <div class="form-row">
+              <label for="voornaam">Voornaam:</label>
+              <input type="text" id="voornaam" name="voornaam" required>
+            </div>
+        
+            <div class="form-row">
+              <label for="achternaam">Achternaam:</label>
+              <input type="text" id="achternaam" name="achternaam" required>
+            </div>
+        
+            <div class="form-row">
+              <label for="telefoon">Telefoonnummer (optioneel):</label>
+              <input type="text" id="telefoon" name="telefoon">
+            </div>
+        
+            <button type="submit">Versturen</button>
+          </form>
 
     <div>
         <p id="contact-mij">Of stuur mij een mail op: jesper.smink@hotmail.nl</p>
